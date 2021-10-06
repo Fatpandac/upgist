@@ -136,7 +136,7 @@ def SaveToken(token):
 def PrintVersion(ctx,param,value):
     if not value or ctx.resilient_parsing:
         return
-    print('Version 0.0.1')
+    print('Version 0.0.2')
     ctx.exit()
 
 def Main_Options(f):
